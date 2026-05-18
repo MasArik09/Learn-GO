@@ -25,7 +25,7 @@ func validateAge(age int) error {
 	return nil
 }
 
-func main() {
+func RunCustomErrorsDemo() {
 	// --- Scenario 1: Valid Input ---
 	fmt.Println("--- SCENARIO 1: VALID INPUT ---")
 	validAge := 25

@@ -47,4 +47,8 @@ func main() {
 	} else {
 		fmt.Printf("[CRITICAL] Index %d is out of bounds for slice length %d\n", targetIndex, len(frameworks))
 	}
+
+	// Centralized Execution for 05-arrays-slices
+	fmt.Println("\n=== Executing Advanced Slices Demo ===")
+	RunAdvancedSlicesDemo()
 }

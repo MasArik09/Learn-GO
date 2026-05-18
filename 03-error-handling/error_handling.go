@@ -44,4 +44,8 @@ func main() {
 	}
 
 	fmt.Println("\n[INFO] Program execution completed gracefully despite the error.")
+
+	// Centralized Execution for 03-error-handling
+	fmt.Println("\n=== Executing Custom Errors Demo ===")
+	RunCustomErrorsDemo()
 }

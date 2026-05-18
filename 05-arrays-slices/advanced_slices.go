@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func RunAdvancedSlicesDemo() {
 	// --- SECTION 1: Shared Underlying Arrays ---
 	fmt.Println("=== 1. SHARED UNDERLYING ARRAY (POINTER REFERENCE) ===")
 	original := []int{10, 20, 30, 40}

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func RunMapsAdvancedDemo() {
 	// 1. Initialize activeSessions map with map literal
 	activeSessions := map[string]string{
 		"token_abc123": "alice",

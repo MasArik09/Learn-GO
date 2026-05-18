@@ -20,4 +20,8 @@ func main() {
 	} else {
 		fmt.Printf("[NOT FOUND] user=%q role=%q (safe default)\n", "dave", "")
 	}
+
+	// Centralized Execution for 06-maps
+	fmt.Println("\n=== Executing Maps Advanced Demo ===")
+	RunMapsAdvancedDemo()
 }
