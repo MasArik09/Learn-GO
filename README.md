@@ -2,25 +2,25 @@
 
 > **A practical, module-based introduction to Go.**
 > 
-> **一个模块化、实用导向的 Go 语言入门教程。**
+> **Pengenalan Go yang praktis dan berbasis modul.**
 
 ---
 
 ## Syllabus / Progress Tracker
 
-| #   | Module (EN)                                             | Module (ZH)                                   | Folders                                      | Status        |
+| #   | Module (EN)                                             | Module (ID)                                   | Folders                                      | Status        |
 |-----|---------------------------------------------------------|-----------------------------------------------|-----------------------------------------------|---------------|
-| 01  | Basic Syntax & Variables                                | 基础语法与变量                                | `01-basic-syntax`, `01-variables-operators`   | ✅ Completed   |
-| 02  | Control Flow (Conditionals)                             | 流程控制（条件语句）                          | `02-conditionals-if-else`                     | ✅ Completed   |
-| 03  | Error Handling Foundations                              | 错误处理基础                                  | `03-error-handling`                           | ✅ Completed   |
-| 04  | Panic & Recover Mechanics                               | Panic 与 Recover 机制                        | `04-panic-recover`                            | ✅ Completed   |
-| 05  | Collective Data: Arrays & Advanced Slices               | 集合数据：数组与高级切片                      | `05-arrays-slices`                            | ✅ Completed   |
-| 06  | Key-Value Data: Maps & Deletion                        | 键值数据：Map 与删除操作                      | `06-maps`                                     | ✅ Completed   |
-| 07  | Advanced Blueprint: Structs, Pointer Methods & Interfaces| 高级蓝图：结构体、指针方法与接口              | `07-structs-methods`                          | ✅ Completed   |
+| 01  | Basic Syntax & Variables                                | Sintaks Dasar & Variabel                      | `01-basic-syntax`, `01-variables-operators`   | ✅ Completed   |
+| 02  | Control Flow (Conditionals)                             | Alur Kontrol (Pengkondisian)                  | `02-conditionals-if-else`                     | ✅ Completed   |
+| 03  | Error Handling Foundations                              | Dasar Penanganan Error                        | `03-error-handling`                           | ✅ Completed   |
+| 04  | Panic & Recover Mechanics                               | Mekanisme Panic & Recover                     | `04-panic-recover`                            | ✅ Completed   |
+| 05  | Collective Data: Arrays & Advanced Slices               | Data Kolektif: Array & Slice Tingkat Lanjut   | `05-arrays-slices`                            | ✅ Completed   |
+| 06  | Key-Value Data: Maps & Deletion                        | Data Key-Value: Map & Penghapusan             | `06-maps`                                     | ✅ Completed   |
+| 07  | Advanced Blueprint: Structs, Pointer Methods & Interfaces| Cetak Biru Lanjutan: Struct, Method Pointer & Interface | `07-structs-methods`                          | ✅ Completed   |
 
 ---
 
-## How to Run / 运行方式
+## How to Run / Cara Menjalankan
 
 **EN:**
 Due to package-level refactoring (to resolve duplicate `main` functions), you must now run each module as a full package directory, not as a single file. Use the following command format:
@@ -31,11 +31,12 @@ go run ./07-structs-methods/
 
 Replace `07-structs-methods` with the desired module folder.
 
-**ZH:**
-由于已重构为包级目录（为解决重复的 `main` 函数），请以包目录方式运行模块，而非单文件。例如：
+**ID:**
+Karena refaktorisasi tingkat paket (untuk mengatasi duplikasi fungsi `main`), Anda sekarang harus menjalankan setiap modul sebagai direktori paket lengkap, bukan sebagai file tunggal. Gunakan format perintah berikut:
 
 ```bash
 go run ./07-structs-methods/
 ```
 
-将 `07-structs-methods` 替换为你要运行的模块目录。
+Ganti `07-structs-methods` dengan folder modul yang diinginkan.
+
