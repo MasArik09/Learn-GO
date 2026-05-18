@@ -21,7 +21,7 @@ func main() {
 
 	// --- SECTION 2: Dynamic Slices & Memory Allocation ---
 	fmt.Println("=== 2. DYNAMIC SLICES (AUTO-GROWING ARCHITECTURE) ===")
-	
+
 	// 'make' initializes a slice with a length of 0 and a capacity of 2.
 	// Capacity is the number of elements the underlying array can hold before re-allocation.
 	frameworks := make([]string, 0, 2)

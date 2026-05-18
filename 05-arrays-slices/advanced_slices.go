@@ -8,7 +8,7 @@ func RunAdvancedSlicesDemo() {
 	// --- SECTION 1: Shared Underlying Arrays ---
 	fmt.Println("=== 1. SHARED UNDERLYING ARRAY (POINTER REFERENCE) ===")
 	original := []int{10, 20, 30, 40}
-	
+
 	// 'sharedSubSlice' takes elements from index 1 to 3 (20, 30).
 	// It shares the SAME underlying array as 'original'.
 	sharedSubSlice := original[1:3]
@@ -28,7 +28,7 @@ func RunAdvancedSlicesDemo() {
 
 	// --- SECTION 3: Deep Copying (Isolation) ---
 	fmt.Println("=== 3. DEEP COPY (ISOLATED ARCHITECTURE) ===")
-	
+
 	// Initialization for isolation using make() and copy()
 	isolatedCopy := make([]int, len(original))
 	numCopied := copy(isolatedCopy, original)
